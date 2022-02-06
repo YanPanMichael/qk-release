@@ -2,7 +2,7 @@
   "name": "qk-release",
   "version": "1.0.1",
   "description": "A beautiful javascript tool for quick release",
-  "author": "Michael",
+  "author": "YanPanMichael",
   "license": "MIT",
   "files": [
     "lib",
@@ -26,8 +26,7 @@
     "node",
     "release"
   ],
-  "devDependencies": {
-    "@types/node": "^17.0.8",
+  "dependencies": {
     "execa": "^5.1.1",
     "fs": "^0.0.1-security",
     "minimist": "^1.2.5",
