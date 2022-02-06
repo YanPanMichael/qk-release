@@ -11,7 +11,7 @@
 ### install
 
 ```bash
-npm i -D qk-release # 或 yarn add -D qk-release
+npm i -D qk-release # OR yarn add -D qk-release
 ```
 
 ```js
@@ -21,7 +21,7 @@ npm i -D qk-release # 或 yarn add -D qk-release
 ```
 
 ```bash
-npm run release # 或 yarn release
+npm run release # OR yarn release
 ```
 
 <br>
