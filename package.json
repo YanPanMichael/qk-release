@@ -1,6 +1,6 @@
 {
   "name": "qk-release",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A beautiful javascript tool for quick release",
   "author": "Michael",
   "license": "MIT",
@@ -13,7 +13,7 @@
     "qkrelease": "bin/cli.js"
   },
   "scripts": {
-    "changelog": "conventional-changelog -i CHANGELOG.md -s --commit-path .",
+    "changelog": "standard-version",
     "release": "node ./bin/cli.js --skipBuild",
     "format": "prettier --write .",
     "docs": "vitepress dev docs",
@@ -27,15 +27,21 @@
     "release"
   ],
   "devDependencies": {
-    "@types/fs-extra": "^9.0.13",
     "@types/node": "^17.0.8",
-    "conventional-changelog-cli": "^2.2.2",
     "execa": "^5.1.1",
     "fs": "^0.0.1-security",
     "minimist": "^1.2.5",
     "path": "^0.12.7",
     "picocolors": "^1.0.0",
     "prettier": "^2.5.1",
-    "prompts": "^2.4.2"
+    "prompts": "^2.4.2",
+    "standard-version": "^9.3.2"
+  },
+  "standard-version": {
+    "skip": {
+      "bump": true,
+      "commit": true,
+      "tag": true
+    }
   }
 }

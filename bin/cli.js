@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 // const { exec } = require('process')
-// exec('node ./src/release.js --skipBuild', (err, stdout, stderr) => {
+// exec('node ./src/qkrelease.js --skipBuild', (err, stdout, stderr) => {
 //   if (err) {
 //     // node couldn't execute the command
 //     console.log('err', err)
@@ -11,4 +11,4 @@
 //   console.log(`stdout: ${stdout}`);
 //   console.log(`stderr: ${stderr}`);
 // });
-require('../lib/release.js')
+require('../lib/qkrelease.js')
