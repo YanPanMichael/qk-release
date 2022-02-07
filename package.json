@@ -1,6 +1,6 @@
 {
   "name": "qk-release",
-  "version": "1.0.5",
+  "version": "1.0.8",
   "description": "A beautiful javascript tool for quick release",
   "author": "YanPanMichael",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "release"
   ],
   "dependencies": {
-    "chanlog": "^0.0.2",
+    "chanlog": "^1.0.1",
     "execa": "^5.1.1",
     "fs": "^0.0.1-security",
     "minimist": "^1.2.5",
