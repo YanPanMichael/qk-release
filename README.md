@@ -26,4 +26,4 @@ npm run release # OR yarn release
 
 <br>
 <br>
-😉😘 If it is helpful to you, please add <b>⭐️<a href="">Star</a></b> Thanks~
+😉😘 If it is helpful to you, please add <b>⭐️<a href="https://github.com/YanPanMichael/qk-release">Star</a></b> Thanks~
