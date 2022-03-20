@@ -1,10 +1,12 @@
 # qk-release
 
-> A beautiful javascript tool for quick release
+> A beautiful cli tool for intergrated process of quick release
 
 ## ✨ Feature
 
 - One common and quick tool for release
+- CLI interacion UI
+- Combine with version update, tag commit, building(optional), change log(optional), pushing to git, publishing(optional) etc.
 
 ## 🚀 Start
 
@@ -16,7 +18,7 @@ npm i -D qk-release # OR yarn add -D qk-release
 
 ```js
   "scripts": {
-    "release": "qkrelease <--skipBuild | --skipLog>"
+    "release": "qkrelease <--skipBuild | --skipLog | --skipPublish>"
   },
 ```
 
