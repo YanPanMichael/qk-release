@@ -1,9 +1,18 @@
 {
   "name": "qk-release",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A beautiful javascript tool for quick release",
   "author": "YanPanMichael",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/YanPanMichael/qk-release.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YanPanMichael/qk-release/issues",
+    "email": "1214863281@qq.com"
+  },
+  "homepage": "https://github.com/YanPanMichael/qk-release",
   "files": [
     "lib",
     "bin",
