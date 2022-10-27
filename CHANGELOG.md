@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [chan-log](https://github.com/conventional-changelog/chan-log) for commit guidelines.
 
+### [1.1.3](https://github.com/YanPanMichael/qk-release/compare/v1.1.2...v1.1.3) (2022-10-27)
+
+
+### Features
+
+* add docs ([abf40ef](https://github.com/YanPanMichael/qk-release/commit/abf40efbebd375570e361a50f40dd291ea9abd6c))
+* save ([e29fad6](https://github.com/YanPanMichael/qk-release/commit/e29fad6041328d85c2c464a70850c2c90d6ba336))
+
 ### [1.1.2](https://github.com/YanPanMichael/qk-release/compare/v1.1.0...v1.1.2) (2022-05-16)
 
 
